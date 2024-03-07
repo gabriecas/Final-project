@@ -8,13 +8,13 @@ export const categoryService = {
       attributes: ['id', 'name', 'position'],
       order: [['position', 'ASC']],
       limit: perPage,
-      offset // offset: offset
+      offset
     })
 
     return {
       categories: rows,
-      page, //page: page
-      perPage, //perPage: perPage
+      page,
+      perPage,
       total: count
     }
   },
