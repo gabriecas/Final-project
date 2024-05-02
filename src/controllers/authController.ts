@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { userService } from "../services/userSevice";
+import { userService } from "../services/userService";
 import { jwtService } from "../services/jwtService";
 
 export const authController = {
